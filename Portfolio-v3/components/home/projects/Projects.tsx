@@ -17,6 +17,31 @@ export const Projects = () => {
 };
 
 const projects = [
+   {
+    title: "Apple Math Pad Clone",
+    imgSrc: "/project-imgs/apple-mathpad-clone.png",
+    code: "https://github.com/ThousifXahamed07/Apple-math-padclone",
+    projectLink: "https://calc-fe.vercel.app/",
+    tech: ["TypeScript", "Python","React", "Gemini API"],
+    description:
+      "Apple Math Pad Clone is an AI-powered calculator app utilizing the Gemini API to deliver intelligent, context-aware solutions for mathematical queries. Designed with a sleek and user-friendly interface, it empowers users to perform basic and advanced calculations effortlessly.",
+    modalContent: (
+      <>
+        <p>
+          Apple Math Pad Clone is an innovative AI-powered calculator application inspired by Apple's Math Pad. The app integrates the Gemini API to enhance its functionality, offering intelligent solutions, step-by-step guidance, and error correction for various mathematical problems.
+        </p>
+        <p>
+          The frontend is developed using TypeScript and React, ensuring a responsive and visually appealing interface, while the backend leverages Python with FastAPI for efficient and robust computation. This combination ensures accurate and real-time results for users.
+        </p>
+        <p>
+          Apple Math Pad Clone is perfect for students, educators, and professionals, providing a dependable platform for solving equations, exploring concepts, and performing symbolic computations with ease.
+        </p>
+        <p>
+          The app is hosted on Vercel at <a href="https://calc-fe.vercel.app/" target="_blank">calc-fe.vercel.app</a>, ensuring a fast and reliable experience for users.
+        </p>
+      </>
+    ),
+  },  
   {
     title: "Soul-OTT",
     imgSrc: "/project-imgs/movix-website.png",
